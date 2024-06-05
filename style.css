@@ -1,0 +1,967 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+   background-color: black;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+    background: url('./Background\ images.png');
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+nav {
+    display: flex;
+    color: white;
+    align-items: center;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 15px 10px;
+    position: relative;
+
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
+    padding: 7px;
+}
+  
+header span {
+    color: chartreuse;
+    border: 1px solid chartreuse;
+    font-size: 15px;
+    padding: 7px;
+}
+
+
+.logo {
+    height: 57px;
+}
+
+.poco {
+    height: 22px;
+    align-items: center;
+}
+
+.conteiner h6 {
+    font-size: 17px;
+    color: aquamarine;
+}
+
+.conteiner h5 {
+    font-size: 23px;
+    padding: 20px 0;
+    color: aquamarine;
+}
+
+.conteiner h1 {
+    font-size: 73px;
+    color: aquamarine;
+    margin-bottom: 70px;
+}
+
+.conteiner p {
+    padding: 1px 0;
+    color: aquamarine;
+}
+
+.text_header {
+    justify-content: center;
+    padding: 50px 100px;
+    gap: 31px;   
+    width: 1000px;
+    height: 528px;
+}
+
+/*----------- main -----------*/
+
+
+main {
+    background: url('./Background.png');
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+
+
+
+.img_text {
+    display: flex;
+    color: aqua;
+}
+
+.img_text p {
+    padding: 20px 0;
+}
+.start {
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.start h1 {
+    color: aqua;
+    font-size: 63px;
+    margin-bottom: 160px;
+}
+
+/*----------------------------------*/
+
+.info_text {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info_text h1 {
+    font-size: 63px;
+    color: aqua;
+    margin-bottom: 70px;
+}
+
+.info_text p {
+    color: aqua;
+    width: 650px;
+    padding: 30px 0;
+}
+
+.img_displayflex {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: black;
+    margin-top: 40px;
+}
+
+
+@media screen and (max-width: 1300px)  {
+
+
+    .img_flex {
+        width: 225px;
+        height: 500px;
+    }   
+
+    
+.conteiner h6 {
+    font-size: 14px;
+    color: aquamarine;
+}
+
+.conteiner h5 {
+    font-size: 19px;
+    padding: 20px 0;
+    color: aquamarine;
+}
+
+.conteiner h1 {
+    font-size: 56px;
+    color: aquamarine;
+    margin-bottom: 70px;
+}
+
+.img_text p {
+    padding: 20px 0;
+}
+.start {
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.start h1 {
+    color: aqua;
+    font-size: 48px;
+    margin-bottom: 160px;
+}
+
+.info_text h1 {
+    font-size: 48px;
+    color: aqua;
+    margin-bottom: 70px;
+}
+
+.tyu {
+    width: 450px;
+    height: 300px;
+}
+
+}
+/*--------------------------------------*/
+.text_img {
+    display: flex;
+    margin-top: 110PX;
+}
+
+.text_img div h1 {
+    color: aqua;
+    padding: 40px 0;
+}
+
+.text_img div p {
+    color: aqua;
+    margin-bottom: 45px;
+}
+
+.text_img div {
+    width: 370px;
+    margin-left: auto;
+
+}
+
+.text_img img {
+    margin-right: auto;
+
+}
+/*-------------------------------------*/
+
+input {
+    background-color: black;
+    width: 400px;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: chartreuse;
+}
+
+textarea {
+    background-color: black;
+    border: chartreuse;
+    width: 400PX;
+    margin: 5px 0;
+    padding: 10px 0;
+}
+
+#inputs button {
+    background-color: black;
+}
+
+
+.point {
+    display: flex;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contact {
+    width: 400px;
+}
+
+.contact h4{
+    color: aqua;
+    padding: 9px 0;
+    margin-right: 30px ;
+}
+
+.contact h1 {
+    color: aqua;
+    padding: 10px 0;
+
+}
+
+.contact img {
+    padding: 14px 0;
+    
+}
+
+.fgh {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 100px;
+    margin-left: 140px;
+}
+
+
+@media screen and (max-width: 1005px) {
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 48px;
+}
+
+nav {
+    display: flex;
+    color: white;
+    align-items: center;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 22px;
+    padding: 12px 8px;
+    position: relative;
+
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 7px;
+}
+  
+header span {
+    color: chartreuse;
+    border: 1px solid chartreuse;
+    font-size: 12px;
+    padding: 7px;
+}
+
+
+.logo {
+    height: 47px;
+}
+
+.poco {
+    height: 18px;
+    align-items: center;
+}
+
+.conteiner h6 {
+    font-size: 13px;
+    color: aquamarine;
+}
+
+.conteiner h5 {
+    font-size: 17px;
+    padding: 20px 0;
+    color: aquamarine;
+}
+
+.conteiner h1 {
+    font-size: 48px;
+    color: aquamarine;
+    margin-bottom: 70px;
+}
+
+.conteiner p {
+    color: aquamarine;
+}
+
+.text_header {
+    justify-content: center;
+    padding: 40px 80px;
+    gap: 31px;   
+    width: 740px;
+    height: 528px;
+}
+
+/*------------------------------------------*/
+    
+
+
+main {
+    background: url('./Background.png');
+    width: 100%;
+    height: 460vh;
+    background-color: black;
+
+}
+
+
+
+.img_text {
+    display: flex;
+    color: aqua;
+}
+
+.img_text p {
+    padding: 20px 0;
+}
+
+.img_text img {
+    width: 400px;
+}
+.start {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.start h1 {
+    color: aqua;
+    font-size: 33px;
+    margin-bottom: 160px;
+}
+
+
+/*----------------------------------*/
+
+.info_text {
+    margin-top: 80px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info_text h1 {
+    font-size: 43px;
+    color: aqua;
+    margin-bottom: 40px;
+}
+
+.info_text p {
+    color: aqua;
+    width: 560px;
+    padding: 25px 0;
+    font-size: 12px;
+}
+
+
+.img_flex {
+    width: 175px;
+    height: 360px;
+}   
+
+/*--------------------------------------*/
+.text_img {
+    display: flex;
+    margin-top: 90PX;
+}
+
+.text_img div h1 {
+    color: aqua;
+    padding: 34px 0;
+}
+
+.text_img div p {
+    color: aqua;
+    margin-bottom: 35px;
+    font-size: 12px;
+}
+
+.text_img div {
+    width: 310px;
+    margin-left: auto;
+
+}
+
+.text_img img {
+    margin-right: auto;
+
+}
+.tyu {
+    width: 350px;
+    height: 260px;
+}
+/*-------------------------------------*/
+input {
+    background-color: black;
+    width: 300px;
+    padding: 8px 0;
+    margin: 5px 0;
+    border: chartreuse;
+}
+
+textarea {
+    background-color: black;
+    border: chartreuse;
+    width: 300PX;
+    margin: 5px 0;
+    padding: 8px 0;
+}
+
+#inputs button {
+    background-color: black;
+}
+
+
+.point {
+    display: flex;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contact {
+    width: 300px;
+}
+
+.contact h4{
+    color: aqua;
+    padding: 7px 0;
+    margin-right: 30px ;
+}
+
+.contact h1 {
+    color: aqua;
+    padding: 8px 0;
+    font-size: 34px;
+}
+
+.contact img {
+    padding: 14px 0;
+    
+}
+
+.fgh {
+    font-size: 33px;
+    color: white;
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
+
+
+.swiper {
+    height: 65vh;
+  }
+}
+
+
+
+@media screen and (max-width: 800px) {
+    
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 34px;
+}
+
+nav {
+    display: flex;
+    color: white;
+    align-items: center;
+    font-weight: 500;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    padding: 9px 5px;
+    position: relative;
+
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 7px;
+}
+  
+header span {
+    color: chartreuse;
+    border: 1px solid chartreuse;
+    font-size: 10px;
+    padding: 7px;
+}
+
+
+.logo {
+    height: 38px;
+}
+
+.poco {
+    height: 18px;
+    align-items: center;
+}
+
+.conteiner h6 {
+    font-size: 10px;
+    color: aquamarine;
+}
+
+.conteiner h5 {
+    font-size: 14px;
+    padding:18px 0;
+    color: aquamarine;
+}
+
+.conteiner h1 {
+    font-size: 38px;
+    color: aquamarine;
+    margin-bottom: 55px;
+}
+
+.conteiner p {
+    color: aquamarine;
+}
+
+.text_header {
+    justify-content: center;
+    padding: 35px 60px;
+    gap: 31px;   
+    width: 500px;
+    height: 528px;
+}
+
+/*------------------------------------------*/
+    
+
+
+main {
+    background: url('./Background.png');
+    width: 100%;
+    height: 460vh;
+    background-color: black;
+
+}
+
+
+
+.img_text {
+    display: flex;
+    color: aqua;
+}
+
+.img_text p {
+    padding: 10px 0;
+    font-size: 10px;
+}
+
+.img_text img {
+    width: 300px;
+}
+.start {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.start h1 {
+    color: aqua;
+    font-size: 29px;
+    margin-bottom: 160px;
+}
+
+
+/*----------------------------------*/
+
+.info_text {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info_text h1 {
+    font-size: 38px;
+    color: aqua;
+    margin-bottom: 40px;
+}
+
+.info_text p {
+    color: aqua;
+    width: 480px;
+    padding: 25px 0;
+    font-size: 12px;
+}
+
+
+.img_flex {
+    width: 140px;
+    height: 290px;
+}   
+
+/*--------------------------------------*/
+.text_img {
+    display: flex;
+    margin-top: 90PX;
+}
+
+.text_img div h1 {
+    color: aqua;
+    padding: 24px 0;
+}
+
+.text_img div p {
+    color: aqua;
+    margin-bottom: 35px;
+    font-size: 10px;
+}
+
+.text_img div {
+    width: 280px;
+    margin-left: auto;
+
+}
+
+.text_img img {
+    margin-right: auto;
+
+}
+.tyu {
+    width: 300px;
+    height: 220px;
+}
+/*-------------------------------------*/
+input {
+    background-color: black;
+    width: 200px;
+    padding: 8px 0;
+    margin: 5px 0;
+    border: chartreuse;
+}
+
+textarea {
+    background-color: black;
+    border: chartreuse;
+    width: 250PX;
+    margin: 5px 0;
+    padding: 8px 0;
+}
+
+#inputs button {
+    background-color: black;
+}
+
+
+.point {
+    display: flex;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contact {
+    width: 250px;
+}
+
+.contact h4{
+    color: aqua;
+    padding: 7px 0;
+    margin-right: 30px ;
+}
+
+.contact h1 {
+    color: aqua;
+    padding: 8px 0;
+    font-size: 28px;
+}
+
+.contact img {
+    padding: 14px 0;
+    
+}
+
+.fgh {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+.swiper {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    nav ul li a {
+        display: none;
+    }
+
+
+    .img_text {
+        color: aqua;
+    }
+    
+    .img_text p {
+        padding: 12px 0;
+        font-size: 10px;
+    }
+    
+    .img_text img {
+        width: 300px;
+        height: 190px;
+    }
+    .start {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    
+    .start h1 {
+        color: aqua;
+        font-size: 23px;
+        margin-bottom: 160px;
+    }
+
+    .swiper {
+        height: 40vh;
+        width: 400px;
+      }
+
+      .fgh {
+        font-size: 18px;
+        color: white;
+        margin-bottom: 0;
+        margin-left: 50px;
+    }
+    /*---------------------*/
+
+    .info_text {
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .info_text h1 {
+        font-size: 38px;
+        color: aqua;
+        margin-bottom: 40px;
+    }
+    
+    .info_text p {
+        color: aqua;
+        width: 480px;
+        padding: 25px 0;
+        font-size: 12px;
+    }
+    
+    
+    .img_flex {
+        width: 120px;
+        height: 220px;
+    }   
+    
+    /*------------------------------*/
+    .text_img {
+        display: block;
+        margin-top: 90PX;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 20px;
+    }
+    
+    .text_img div h1 {
+        color: aqua;
+        padding: 24px 0;
+    }
+    
+    .text_img div {
+        width: 450px;
+        margin-left: 0;
+    
+    }
+
+    .tyu {
+        width: 450px;
+        height: 220px;
+    }
+
+
+    /*-----------------------------*/
+
+    
+.point {
+    display: block;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contact {
+    width: 400px;
+}
+
+.contact h4{
+    color: aqua;
+    padding: 7px 0;
+    margin-right: 30px ;
+}
+
+.contact h1 {
+    color: aqua;
+    padding: 8px 0;
+    font-size: 25px;
+}
+
+.contact img {
+    padding: 14px 0;
+    
+}
+
+.fgh {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+
+
+.conteiner {
+    width: 600px;
+    height: 85vh;
+}
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 80vh;
+    border-radius: 30px;
+    margin: 30px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
